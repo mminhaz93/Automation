@@ -3,3 +3,5 @@
 .settings/
 .project
 .settings/
+.automation.iml
+.classpath
