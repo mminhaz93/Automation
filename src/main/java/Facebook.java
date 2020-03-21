@@ -16,8 +16,10 @@ public class Facebook {
 
         WebDriver driver = new ChromeDriver();
 
-        String baseURL = "http://www.facebook.com";
+        String baseURL = "https://momovies.netlify.com/movies";
         String expectedTitle = "Facebook";
+
+        Thread.sleep(500000);
 
         // Navigate to google
         driver.get(baseURL); // will navigate and wait till the entire page is loaded
