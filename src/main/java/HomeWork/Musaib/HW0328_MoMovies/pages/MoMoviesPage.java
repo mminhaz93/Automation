@@ -22,6 +22,7 @@ public class MoMoviesPage {
     By enterMessageElm = By.id("validationCustom03");
     By submitElm = By.xpath("//*[@id=\"root\"]/main/div/form/div[4]/button");
     By succesMessageElm = By.xpath("//*[@id=\"site-frame\"]/div[1]/div/div/div/p");
+
 //    @FindBy(id = "search-input") WebElement searchField;
 //    @FindBy(className = "search-input") WebElement contractUs;
 
@@ -69,6 +70,8 @@ public class MoMoviesPage {
        String Message = succesMessageText.getText();
         return Message;
     }
+
+
 //    public void clickFlightButton() {
 //        WebElement flightButton = driver.findElement(flightButtonElm);
 //        flightButton.click();

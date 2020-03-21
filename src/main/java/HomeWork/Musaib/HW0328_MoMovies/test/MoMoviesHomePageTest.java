@@ -42,6 +42,7 @@ public class MoMoviesHomePageTest {
         page.searchMovie("Safe");
         page.clickDropdown();
 
+
         String expectedTitle = "MoMovies: Movies | Movie Trailer | Movie Details";
         String actualTitle = driver.getTitle();
         System.out.println(actualTitle);
